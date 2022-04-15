@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Cinzel&family=League+Gothic&family=Lobster&family=Stint+Ultra+Condensed&display=swap');
+
+#logo {
+    margin: 10px auto;        
+    width: 5%;
+    display: inline-grid;
+    position: fixed;
+    left: 530pt;
+    top: 0px;
+}
+#logotexto {
+    font-size: 420%;
+    color: rgb(0, 255, 238);
+    font-family: 'Cinzel', serif;
+    margin-left: 25px;
+}
+body {
+    background-color: rgb(12, 142, 186);
+}
+ 
+   
