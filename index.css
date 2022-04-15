@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Cinzel&family=League+Gothic&family=Lobster&family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 *{
     margin:0;
     padding:0;
@@ -8,16 +8,16 @@
 
 #logo {
     margin: 10px auto;        
-    width: 4%;
+    width: 5%;
     display: inline-grid;
     position: fixed;
-    left: 645pt;
-    top: 4px;
+    left: 655pt;
+    top: 25px;
 }
 #logotexto {
     font-size: 420%;
     color: #4cd1fa ;
-    font-family: 'Cinzel', serif;
+    font-family: 'Audiowide', cursive;
     margin-left: 25px;
     text-shadow: 4px 4px rgb(0, 0, 0);
 }
@@ -33,9 +33,14 @@ body{
     padding: 30px;
      
  } 
- #conteudo {
+ .conteudo {
     border-top: 1px solid #fffcfc;
     box-shadow: 1px 1px 2px 2px black;
     background-color: #4c9efa;
     
+}
+.conteudo-principal-escrito-pergunta {
+    color: #7d35fa;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    font-size: 300%;
 }
