@@ -5,17 +5,18 @@
     width: 5%;
     display: inline-grid;
     position: fixed;
-    left: 530pt;
-    top: 0px;
+    left: 540pt;
+    top: 50px;
 }
 #logotexto {
     font-size: 420%;
-    color: rgb(0, 255, 238);
+    color: #4cd1fa ;
     font-family: 'Cinzel', serif;
     margin-left: 25px;
+    text-shadow: 4px 4px rgb(0, 0, 0);
 }
 body {
-    background-color: rgb(12, 142, 186);
+    background-color: #555cfa;
 }
  
    
