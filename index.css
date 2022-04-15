@@ -11,7 +11,7 @@
     width: 5%;
     display: inline-grid;
     position: fixed;
-    left: 680pt;
+    left: 660pt;
     top: 25px;
 }
 #logotexto {
@@ -47,5 +47,5 @@
 }
 .conteudonav{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
