@@ -15,16 +15,17 @@
     margin-left: 25px;
     text-shadow: 4px 4px rgb(0, 0, 0);
 }
-/*body {
-;
-}*/
+body{
+    background-color: black;
+}
  #cabeçalho{
      display: flex;
      flex-direction: row;
      background-color: #555cfa;
  } 
-.conteudo {
+ #conteudo {
     border-top: 1px solid #fffcfc;
     box-shadow: 1px 1px 2px 2px black;
+    background-color: #4c9efa;
     
 }
