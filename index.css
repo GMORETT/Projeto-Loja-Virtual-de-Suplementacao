@@ -48,4 +48,8 @@
 .conteudonav{
     color: white;
     font-size: 25px;
+    padding: 40px;
+}
+.anav{
+    padding:10px;
 }
