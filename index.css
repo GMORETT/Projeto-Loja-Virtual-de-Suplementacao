@@ -37,6 +37,9 @@
     background-color: #4c9efa;
     
 }
+.conteudo-principal-escrito{
+    align-items: center;
+}
 .conteudo-principal-escrito-pergunta {
     color: #7222fb;
     text-shadow: 3px 3px rgb(5, 33, 132);
@@ -45,6 +48,10 @@
 .conteudonav{
     color: white;
     font-size: 25px;
+    padding: 40px;
+}
+.anav{
+    padding:10px;
 }
 .conteudo-principal-escrito-resposta {
     color: #713dcc;
