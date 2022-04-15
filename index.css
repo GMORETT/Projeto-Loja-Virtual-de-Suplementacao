@@ -37,6 +37,9 @@
     background-color: #4c9efa;
     
 }
+.conteudo-principal-escrito{
+    align-items: center;
+}
 .conteudo-principal-escrito-pergunta {
     color: #7d35fa;
     text-shadow: 3px 3px rgb(0, 0, 0);
