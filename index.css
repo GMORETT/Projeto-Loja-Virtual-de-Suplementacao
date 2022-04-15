@@ -21,4 +21,5 @@ body {
  #cabeçalho{
      display: flex;
      flex-direction: row;
+     border-bottom: 0.4px solid #fff2e7;
  } 
