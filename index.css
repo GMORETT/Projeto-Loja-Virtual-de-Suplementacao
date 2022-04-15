@@ -15,7 +15,7 @@
     display: inline-grid;
     position: fixed;
     left: 660pt;
-    top: 25px;
+    top: 38px;
 }
 #logotexto {
     font-size: 420%;
@@ -43,8 +43,8 @@
     align-items: center;
 }
 .conteudo-principal-escrito-pergunta {
-    color: #7d35fa;
-    text-shadow: 3px 3px rgb(0, 0, 0);
+    color: #7222fb;
+    text-shadow: 3px 3px rgb(5, 33, 132);
     font-size: 300%;
 }
 .conteudonav{
@@ -54,4 +54,10 @@
 }
 .anav{
     padding:10px;
+    color: rgb(255, 255, 255);
+}
+.conteudo-principal-escrito-resposta {
+    color: #713dcc;
+    font-size: 160%;
+    text-shadow: 1px 1px white;
 }
