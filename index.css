@@ -15,11 +15,15 @@
     margin-left: 25px;
     text-shadow: 4px 4px rgb(0, 0, 0);
 }
-body {
+/*body {
     background-color: #555cfa;
-}
+}*/
  #cabeçalho{
      display: flex;
      flex-direction: row;
-     border-bottom: 0.4px solid #fff2e7;
  } 
+.conteudo {
+    border-top: 1px solid #fffcfc;
+    box-shadow: 1px 1px 2px 2px black;
+    
+}
