@@ -8,11 +8,11 @@
 
 #logo {
     margin: 10px auto;        
-    width: 5%;
+    width: 4%;
     display: inline-grid;
     position: fixed;
-    left: 540pt;
-    top: 50px;
+    left: 645pt;
+    top: 4px;
 }
 #logotexto {
     font-size: 420%;
