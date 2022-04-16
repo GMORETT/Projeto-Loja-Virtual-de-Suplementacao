@@ -9,10 +9,7 @@
 #logo {
     margin: 10px auto;        
     width: 5%;
-    display: inline-grid;
-    position: fixed;
-    left: 660pt;
-    top: 38px;
+  
 }
 #logotexto {
     font-size: 420%;
@@ -75,4 +72,7 @@ a:hover {
 .rodape {
     text-align: center;
     padding: none;
+}
+.copyright{
+    padding-top: 20px;
 }
