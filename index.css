@@ -43,6 +43,7 @@
     color: #7222fb;
     text-shadow: 2px 2px rgb(0, 0, 0);
     font-size: 300%;
+    text-align: center;
 }
 .conteudonav{
     color: white;
@@ -58,6 +59,8 @@
     color: #713dcc;
     font-size: 160%;
     text-shadow: 1px 1px rgb(152, 252, 255);
+    padding: 20px;
+    text-align: center;
 }
 a:hover {
     color: rgb(179, 250, 250);
