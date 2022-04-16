@@ -25,7 +25,7 @@
  #cabeçalho{
      display: flex;
      flex-direction: row;
-     background: linear-gradient(0.25turn, #555cfa, #555cfa, #4c9efa);
+     background: linear-gradient(0.25turn, #555cfa,#3F48CC 60%,  #4c9efa);
      align-items: center;
      justify-content: space-around;
     padding: 30px;
@@ -68,4 +68,5 @@ a:hover {
 }
 .rodape {
     text-align: center;
+    padding: none;
 }
