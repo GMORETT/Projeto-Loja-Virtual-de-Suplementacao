@@ -9,9 +9,9 @@ body {
     background-image: url(muscle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
-#cabeçalho{
+#cabecalho{
     display: flex;
     flex-direction: row;
     background: linear-gradient(0.25turn,#4c9efa,#3F48CC 50%,  #4c9efa);
