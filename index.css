@@ -20,6 +20,7 @@
     background-color: azure ;
     border-radius: 30px;
     padding: 20px;
+    text-shadow: 0.2em 0.5em 0.1em #ddd, -0.3em 0.1em 0.1em #aaa, 0.4em -0.3em 0.1em #888;
 }
 
  #cabeçalho{
