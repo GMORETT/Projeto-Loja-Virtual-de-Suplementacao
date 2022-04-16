@@ -68,6 +68,8 @@
 }
 a:hover {
     color: rgb(179, 250, 250);
+    text-shadow: 0 0 8px white;
+    transition: 1s;
 }
 .rodape {
     text-align: center;
