@@ -17,6 +17,9 @@
     font-family: 'Audiowide', cursive;
     margin-left: 25px;
     text-shadow: 4px 4px rgb(0, 0, 0);
+    background-color: azure ;
+    border-radius: 30px;
+    padding: 20px;
 }
 
  #cabeçalho{
@@ -28,8 +31,7 @@
     padding: 30px;
  } 
  .conteudo {
-    border-top: 1px solid #fffcfc;
-    box-shadow: 1px 1px 2px 2px black;
+    border-top: 1px solid black;
     background-color: azure;
     text-align: center;
     
