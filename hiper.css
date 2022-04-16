@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+body {
+    background-image: url(muscle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#cabeçalho{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(0.25turn,#4c9efa,#3F48CC 50%,  #4c9efa);
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 0.5em
+}
+.conteudonav{
+    color: white;
+    font-size: 25px;
+    padding: 40px;
+}
+.anav{
+    padding:10px;
+    color: rgb(255, 255, 255);
+}
+#logotexto {
+    font-size: 420%;
+    color: #4cd1fa ;
+    font-family: 'Audiowide', cursive;
+    margin-left: 25px;
+    text-shadow: 4px 4px rgb(0, 0, 0);
+}
