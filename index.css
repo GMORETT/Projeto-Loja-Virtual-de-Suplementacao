@@ -9,10 +9,7 @@
 #logo {
     margin: 10px auto;        
     width: 5%;
-    display: inline-grid;
-    position: fixed;
-    left: 660pt;
-    top: 38px;
+  
 }
 #logotexto {
     font-size: 420%;
@@ -36,6 +33,12 @@
     background-color: azure;
     text-align: center;
     
+}
+.conteudo-principal{
+    background-color: #4cd1fa;
+    padding: 20px 20px 5px 20px;
+    margin: 90px 90px 100px 90px;
+    border-radius: 30px;
 }
 .conteudo-principal-escrito{
     align-items: center;
@@ -69,4 +72,8 @@ a:hover {
 .rodape {
     text-align: center;
     padding: none;
+    background: linear-gradient(to bottom,#4c9efa,#3F48CC 50%,  #4c9efa);
+}
+.copyright{
+    padding-top: 20px;
 }
