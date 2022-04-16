@@ -16,7 +16,7 @@
     color: #4cd1fa ;
     font-family: 'Audiowide', cursive;
     margin-left: 25px;
-    text-shadow: 4px 4px rgb(0, 0, 0);
+    text-shadow: 0 0 0.5em #8400ff, 0 0 0.5em #8400ff, 0 0 0.5em #8400ff;
 }
 
  #cabeçalho{
