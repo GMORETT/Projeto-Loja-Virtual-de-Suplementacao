@@ -37,6 +37,12 @@
     text-align: center;
     
 }
+.conteudo-principal{
+    background-color: #4cd1fa;
+    padding: 20px;
+    margin: 90px;
+    border-radius: 30px;
+}
 .conteudo-principal-escrito{
     align-items: center;
 }
