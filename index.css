@@ -36,8 +36,8 @@
 }
 .conteudo-principal{
     background-color: #4cd1fa;
-    padding: 20px;
-    margin: 90px;
+    padding: 20px 20px 5px 20px;
+    margin: 90px 90px 100px 90px;
     border-radius: 30px;
 }
 .conteudo-principal-escrito{
@@ -72,6 +72,7 @@ a:hover {
 .rodape {
     text-align: center;
     padding: none;
+    background: linear-gradient(to bottom,#4c9efa,#3F48CC 50%,  #4c9efa);
 }
 .copyright{
     padding-top: 20px;
