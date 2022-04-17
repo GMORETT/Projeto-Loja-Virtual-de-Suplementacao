@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+#logo {
+    margin: 10px auto;        
+    width: 5%;
+  
+}
+#logotexto {
+    font-size: 420%;
+    color: #4cd1fa ;
+    font-family: 'Audiowide', cursive;
+    margin-left: 25px;
+    text-shadow: 0 0 0.5em #8400ff, 0 0 0.5em #8400ff, 0 0 0.5em #8400ff;
+}
+
+ #cabeçalho{
+     display: flex;
+     flex-direction: row;
+     background: linear-gradient(0.25turn,#4c9efa,#3F48CC 50%,  #4c9efa);
+     align-items: center;
+     justify-content: space-around;
+    padding: 30px;
+ } 
+ .conteudonav{
+    color: white;
+    font-size: 25px;
+    padding: 40px;
+}
+.anav{
+    padding:10px;
+    color: rgb(255, 255, 255);
+}
