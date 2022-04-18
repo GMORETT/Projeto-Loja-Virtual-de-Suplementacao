@@ -42,3 +42,24 @@ a:hover {
     background-size: cover;
     background-position: center;
 }
+form{
+    border: none;
+    border-radius: 1px;
+    padding: 2px;
+}
+form input, form button{
+    font-size:  20px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+}
+form button{
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+    border: none;
+}
+form button:hoover{
+    background-color: red;
+    color: red;
+}
