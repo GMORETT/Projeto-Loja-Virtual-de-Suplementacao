@@ -6,10 +6,8 @@
     text-decoration: none;
     }
 body {
-    background-image: url(muscle.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+ 
+ 
 }
 #cabecalho{
     display: flex;
@@ -40,4 +38,11 @@ a:hover {
     color: rgb(179, 250, 250);
     text-shadow: 0 0 8px white;
     transition: 1s;
+}
+#section-main{
+    background-image: url(muscle.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
