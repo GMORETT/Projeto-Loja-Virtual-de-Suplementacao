@@ -37,3 +37,10 @@
     padding:10px;
     color: rgb(255, 255, 255);
 }
+#section-main{
+    display: flex;
+    flex-direction: column;
+}
+#nav-main{
+    display: grid;
+}
