@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 *{
     margin:0;
     padding:0;
@@ -13,30 +14,38 @@
 }
 #logotexto {
     font-size: 420%;
-    color: #4cd1fa ;
+    color: white ;
     font-family: 'Audiowide', cursive;
     margin-left: 25px;
-    text-shadow: 0 0 0.5em #8400ff, 0 0 0.5em #8400ff, 0 0 0.5em #8400ff;
+    text-shadow: 0 0 0.5em #73716c, 0 0 0.5em #595854, 0 0 0.5em #f1f1ee;
 }
 
  #cabeçalho{
      display: flex;
      flex-direction: row;
-     background: linear-gradient(0.25turn,#4c9efa,#3F48CC 50%,  #4c9efa);
+     background: linear-gradient(0.25turn,#000000,#263135,rgb(182, 178, 169), #263135,#000000);
      align-items: center;
      justify-content: space-around;
     padding: 30px;
  } 
  .conteudo {
     border-top: 1px solid black;
-    background-color: azure;
+    background-color:#141E27;
     text-align: center;
-    
+}
+
+.imagem-main{
+    background: url(imagens/acad\ imagem\ maior.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:1000px;
+
 }
 .conteudo-principal{
-    background-color: #4cd1fa;
+    background-color: whitesmoke;
     padding: 20px 20px 5px 20px;
-    margin: 90px 90px 100px 90px;
+    
     border-radius: 30px;
 }
 .conteudo-principal-escrito{
@@ -56,6 +65,7 @@
 .anav{
     padding:10px;
     color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;
 }
 
 .conteudo-principal-escrito-resposta {
@@ -66,14 +76,15 @@
     text-align: center;
 }
 a:hover {
-    color: rgb(179, 250, 250);
+    color:lightgrey;
     text-shadow: 0 0 8px white;
     transition: 1s;
 }
 .rodape {
     text-align: center;
     padding: none;
-    background: linear-gradient(to bottom,#4c9efa,#3F48CC 50%,  #4c9efa);
+    background-color: #141E27;
+    
 }
 .copyright{
     padding-top: 20px;
