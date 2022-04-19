@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 *{
     margin:0;
     padding:0;
@@ -41,3 +42,98 @@ a:hover {
     text-shadow: 0 0 8px white;
     transition: 1s;
 }
+.formul {
+    min-height: 100%;
+    padding: 300px;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    padding-top: 80px;
+    
+    }
+    h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #4cd1fa;
+    }
+    p {
+    margin: 0 0 5px;
+    }
+    .main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: linear-gradient(to right, rgba(255,0,0,0.1), rgba(253, 53, 160, 0.6));
+    }
+    form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+    }
+    .fas {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    color: rgba(240, 255, 255, 0.792);
+    }
+    .fa-envelope {
+    transform: rotate(-20deg);
+    }
+    .fa-at , .fa-email-bulk{
+    transform: rotate(10deg);
+    }
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #4cd1fa;
+    outline: none;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #4cd1fa; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: #00c3ff;
+    }    
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .lado-esquerdo, form {
+    width: 50%;
+    }
+    .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+    }
+    .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+    .fa-email-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+    }
+    }
+
+    #titulo {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 500%;
+        font-family: 'Black Ops One', cursive;
+        padding-top: 5px;
+        text-shadow: 0 0 0.5em rgb(249, 0, 87), 0 0 0.5em rgb(225, 14, 81), 0 0 0.5em rgba(254, 8, 90, 0.732);
+        color: rgb(174, 255, 255);
+    }
