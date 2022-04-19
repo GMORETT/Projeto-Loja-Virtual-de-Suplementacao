@@ -8,11 +8,11 @@
 #cabecalho{
     display: flex;
     flex-direction: row;
-    background: linear-gradient(0.25turn, #138FB2 10% ,#2A222A 50% );
+   /* background: linear-gradient(0.25turn, #138FB2 10% ,#2A222A 50% );*/
     align-items: center;
     justify-content: space-around;
     padding: 30px;
-   
+    background:linear-gradient(to right, rgba(2, 21, 28, 0.5), rgba(31, 96, 114, 0.8))
 }
 .conteudonav{
     color: white;
@@ -35,9 +35,9 @@ a:hover {
     text-shadow: 0 0 8px white;
     transition: 1s;
 }
-#section-main{
+#section-main-header{
     background-image: url(muscle.jpg);
-    height: 700px;
+    height: 850px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
