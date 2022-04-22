@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap');
 *{
     margin:0;
     padding:0;
@@ -37,10 +39,10 @@ a:hover {
 }
 #section-main-header{
     background-image: url(muscle.jpg);
-    height: 850px;
+    height: 1100px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 70%;
 }
 form{
     border: none;
@@ -62,4 +64,19 @@ form button{
 form button:hoover{
     background-color: red;
     color: red;
+}
+.conteudo-principal {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(14, 12, 36), rgb(36, 140, 175));
+}
+.conteudo-principal-escrito-pergunta {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 700%;
+    text-shadow: 0 0 0.5em rgb(81, 142, 122), 0 0 0.5em rgb(79, 146, 79), 0 0 0.5em rgba(124, 228, 140, 0.732);
+    color: rgba(240, 255, 255, 0.897);
+}
+.conteudo-principal-escrito-resposta {
+    font-size: 230%;
+    color: #4cd1fa;
+    font-family: 'BIZ UDMincho', serif;
 }
