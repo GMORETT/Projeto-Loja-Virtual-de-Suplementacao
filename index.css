@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
 *{
     margin:0;
     padding:0;
@@ -30,7 +32,7 @@
  } 
  .conteudo {
     border-top: 1px solid black;
-    background-color:#141E27;
+    background-color:#06101A;
     text-align: center;
 }
 
@@ -43,19 +45,20 @@
 
 }
 .conteudo-principal{
-    background-color: whitesmoke;
+    background-color: #313C3E;
     padding: 20px 20px 5px 20px;
-    
     border-radius: 30px;
+    margin: 70px 70px 0px 70px;
 }
 .conteudo-principal-escrito{
     align-items: center;
 }
 .conteudo-principal-escrito-pergunta {
-    color: #7222fb;
+    color: #07111B;
     text-shadow: 2px 2px rgb(0, 0, 0);
     font-size: 300%;
     text-align: center;
+    font-family: 'Overpass', sans-serif;;
 }
 .conteudonav{
     color: white;
@@ -69,11 +72,11 @@
 }
 
 .conteudo-principal-escrito-resposta {
-    color: #8259c9;
+    color: whitesmoke;
     font-size: 160%;
-    text-shadow: 1px 1px rgb(152, 252, 255);
     padding: 20px;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 a:hover {
     color:lightgrey;
@@ -83,7 +86,8 @@ a:hover {
 .rodape {
     text-align: center;
     padding: none;
-    background-color: #141E27;
+    background-color: #06101A;
+    color: white;
     
 }
 .copyright{
