@@ -80,3 +80,18 @@ form button:hoover{
     color: #4cd1fa;
     font-family: 'BIZ UDMincho', serif;
 }
+.conteudo-principal-escrito-resposta2 {
+    font-size: 350%;
+    color: #4cd1fa;
+    font-family: 'BIZ UDMincho', serif;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+.conteudo-principal-escrito-resposta3 {
+    font-size: 400%;
+    text-shadow: 0 0 0.5em rgb(63, 0, 253), 0 0 0.5em rgb(83, 26, 255), 0 0 0.5em rgba(0, 60, 255, 0.732);
+    color: azure;
+    font-family: 'BIZ UDMincho', serif;
+}
+.loja {
+    color:rgb(89, 247, 247);
+}
