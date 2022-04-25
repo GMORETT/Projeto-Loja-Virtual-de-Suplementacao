@@ -30,6 +30,7 @@ body {
 .anav{
     padding:10px;
     color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;
 }
 #logotexto {
     font-size: 420%;
